@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efefef;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+#navbarBlock {
+  background-color: royalblue;
+  width: 100%;
+  height: 70px;
+  color: #fff;
+}
+
+#navbarBlock article {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 70px;
+  justify-content: center;
+}
+
+/* #navbarBlock article :nth-child(2){
+  flex-basis: 50%;
+  justify-content: flex-end;
+}
+
+#navbarBlock article :nth-child(1){
+  flex-basis: 50%;
+  
+} */
+
+.logoBlock {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoBlock img {
+  width: auto;
+  height: 53px;
+}
+.menuBlock {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuBlock nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.menuBlock nav ul li a {
+  color: orange;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.menuBlock nav ul li a:hover {
+  background-color: #efefef;
+  color: #111;
+  border-radius: 10px;
+}
+
+/* contact form */
+
+#contactform article {
+  width: 85%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #efefef;
+  height: 100vh;
+}
+#contactform article form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#contactform article div {
+  flex-basis: 23%;
+  margin: 4px;
+  min-height: 100px;
+}
+
+#contactform article div label {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#contactform article div input,
+#contactform article div textarea {
+  width: 100% !important;
+  display: block;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#contactform article div button {
+  background-color: orangered;
+  color: #fff;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid rgb(236, 193, 276);
+  cursor: pointer;
+}
+
+#contactform article div button:hover {
+  background-color: #111;
+}
+
+.text {
+  width: 100% !important;
+}
